@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>RELATION.CO.KR_NO_169_2</title>
+<meta charset="utf-8">
+<title>RELATION.CO.KR_NO169_3</title>
 <script language="javascript">
 //<!--
 	function caTabclick(vTabNo)
@@ -28,22 +28,23 @@
 <body>
 	
 	<style>
-		* {	margin:0; padding:0;	}
-		#profile_txt_area									{	margin:50px auto; width:900px; }
-		.career_tab 											{	position:relative; width:900px; display:inline-block;/*border-style:solid; border-color:rgb(0, 0, 0); border-width:0px 0px 1px 0px;*/  }
-		.career_tab:after									{ content:""; position:absolute; left:0; bottom:0px; z-index:-1; width:100%; height:1px; background:#000;  }
-		
-		.career_tab div 									{	position:relative; display:block; float:left; width:150px;  font-size:14px; padding:10px 0 10px 0; text-align:center; box-sizing:border-box; border-style:solid; border-color:#ccc; border-width:1px 0px 0px 1px;	 }
-		.career_tab div:last-child 				{ border-style:solid; border-color:#ccc; border-width:1px 1px 0px 1px;}
-		.career_tab div.ca_tab_on 				{	width:150px; height:100%;  border-style:solid; border-color:rgb(0, 0, 0); border-width:1px 0px 0 1px; border-bottom-style:solid; border-bottom-color:#fff; border-bottom-width:1px; background:#fff;  }
-		.career_tab div.ca_tab_on:after   {	content:""; position:absolute; right:-1px; top:-1px; z-index:2; display:block;  width:1px; height:41px; background-color:#000; 	}
+    * {	margin:0; padding:0;	}
+    #profile_txt_area									{	margin:50px auto; width:900px; }
+    .career_tab 											{	position:relative; width:900px; display:inline-block;/*border-style:solid; border-color:rgb(0, 0, 0); border-width:0px 0px 1px 0px;*/  }
+    .career_tab:after									{ content:""; position:absolute; left:0; bottom:0px; z-index:-1; width:100%; height:1px; background:#000;  }
 
-	 .career_list 					{	float:left; width: 800px; margin-top:10px;   }
-	 .career_list dl 				{	float:left; margin: 0px; padding: 0px;	}
-	 .career_list dt 				{	height: 36px; color: rgb(87, 87, 87); line-height: 36px;	}
-	 .career_list dt span 	{	width: 100px; color: rgb(151, 151, 151); padding-left: 13px; display: inline-block;	}
-	 .career_list dd 				{	background: url("/images/common/dot_line.gif") repeat-x; height: 1px; display: block;	}
-	 .over_hidden 					{	overflow: hidden; float: left; display: inline;	}
+    .career_tab div 									{	position:relative; display:block; float:left; width:150px;  font-size:14px; padding:10px 0 10px 0; text-align:center; box-sizing:border-box; border-style:solid; border-color:#ccc; border-width:1px 0px 0px 1px;	cursor:pointer; }
+    .career_tab div:last-child 				{ border-style:solid; border-color:#ccc; border-width:1px 1px 0px 1px;}
+    .career_tab div:last-child.ca_tab_on { border:1px solid #000;  border-bottom-style:solid; border-bottom-color:#fff; border-bottom-width:1px; }
+    .career_tab div.ca_tab_on +div    { border-left:1px solid #000;  }
+    .career_tab div.ca_tab_on 				{	width:150px; height:100%;  border-style:solid; border-color:#000; border-width:1px 0px 0 1px; border-bottom-style:solid; border-bottom-color:#fff; border-bottom-width:1px; background:#fff;  }
+
+    .career_list 					{	float:left; width: 800px; margin-top:10px;   }
+    .career_list dl 				{	float:left; margin: 0px; padding: 0px;	}
+    .career_list dt 				{	height: 36px; color: rgb(87, 87, 87); line-height: 36px;	}
+    .career_list dt span 	{	width: 100px; color: rgb(151, 151, 151); padding-left: 13px; display: inline-block;	}
+    .career_list dd 				{	display: block;	}
+    .over_hidden 					{	overflow: hidden; float: left; display: inline;	}
 	</style>
 
 	<div id="profile_txt_area">
